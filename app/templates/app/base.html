@@ -1,0 +1,18 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="icon" href="{% static 'images/favicon_MONTERO.ico' %}">
+    <title>Keanna's Profile</title>
+    <link rel="stylesheet" href="{% static 'css/base.css' %}"
+</head>
+<body>
+   {% include 'app/navbar.html'%}
+    {% block content %}
+
+    {% endblock content %}
+
+</body>
+<script src="{% static 'js/base.js' %}"></script>
+</html>
